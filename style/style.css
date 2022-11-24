@@ -1,0 +1,56 @@
+body{
+    background-color: #e5e5e5;
+}
+.nav-extended{
+    background-image: url("../img/capaLeve.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+.nav-header h1{
+    padding-bottom: 2rem;
+    text-shadow: .1rem .1rem .2rem black;
+}
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active,  nav ul li.active, nav ul li a:hover,.tabs.tabs-transparent .tab a.active :hover{
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.cardInfo{
+    height: 56rem!important;
+    margin: 1rem 0;
+}
+.cardInfo .card{
+    height: 56rem;
+}
+
+@media (max-width: 1000px){
+    .cardInfo {
+        height: 59rem!important;
+    }
+    .card{
+        height: 59rem!important;
+    }
+}
+
+@media (max-width: 610px){
+    
+    .cardInfo {
+        height: 72rem!important;
+    }
+    .card{
+        height: 72rem!important;
+    }
+}
+
+@media (min-width: 993px){
+    .container {
+        width: 90%;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 85%;
+    }
+}
+    
